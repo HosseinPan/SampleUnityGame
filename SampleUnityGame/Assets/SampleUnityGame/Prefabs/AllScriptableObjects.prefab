@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8626897366232451498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8626897366232451508}
+  - component: {fileID: 8626897366232451499}
+  m_Layer: 0
+  m_Name: AllScriptableObjects
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8626897366232451508
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8626897366232451498}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.299156, y: -5.46562, z: 3.6207128}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8626897366232451499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8626897366232451498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08156c58bbb84af4fb1efcce4a4355b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameDesignSettings:
+    LevelSettings: {fileID: 11400000, guid: 4401989c517687140b6782edb07994f0, type: 2}
+  animationSettings:
+    PlayerWalk: {fileID: 11400000, guid: 3f291e31b8bf89d4792f041165be225e, type: 2}
+    StartTurn: {fileID: 11400000, guid: 72dcf6ac4e493594da61aea9cdfedc49, type: 2}
+  events:
+    AI_RollDiceRequested: {fileID: 11400000, guid: 83deed32d8194b74cba34c951d8c76e7, type: 2}
+    DiceRolled: {fileID: 11400000, guid: 55cb0d80c1b9ea8478d85ac67fe232ed, type: 2}
+    LevelInitialized: {fileID: 11400000, guid: 1401d9bc9aff2374689046cfc84782a7, type: 2}
+    InitializeLevelRequested: {fileID: 11400000, guid: 433863946a5b66e4bb12ebcc3ba1078b, type: 2}
+    StartPlayerTurnRequested: {fileID: 11400000, guid: c0cfe8063d75b0646b8546c276e04387, type: 2}
+    PlayerTurnEnded: {fileID: 11400000, guid: aa0ff3d9364f12d468475dba4876bc18, type: 2}
+    PlayerWon: {fileID: 11400000, guid: cde242bfd7159dc4c9a10cd5648585bd, type: 2}
+    PlayerTurnStart_Requested: {fileID: 11400000, guid: 7094b3e99ed46844fb8ac0a6559b527e, type: 2}
+    PlayerTurnStart_AnimationEnded: {fileID: 11400000, guid: 07176eab5ef847442a6217fcb277476c, type: 2}
+    PlayerRollDiceRequested: {fileID: 11400000, guid: ac21038a38f057c46887fca37b01d470, type: 2}
+    PlayerwalkEnded: {fileID: 11400000, guid: cc78b8c9e597749499429030066a268d, type: 2}
+    PlayerWalk_Requested: {fileID: 11400000, guid: e13efdbf720dd3b43b2811e43812581b, type: 2}
+  sharedData:
+    CurrentPlayer: {fileID: 11400000, guid: 7b83d72f48649154f8f8b106db4801ff, type: 2}
+    AllDices: {fileID: 11400000, guid: 6dd8fd0eff66c284bb60cb090ab3b18f, type: 2}
+    AllPlayers: {fileID: 11400000, guid: 6af00c4292222ce4b95ea7adbe5fdf7c, type: 2}
+    RolledDiceValue: {fileID: 11400000, guid: db76a67acace71f43af80f951c629cf2, type: 2}
+    SelectedDice: {fileID: 11400000, guid: 898ebbfac487ac34bb74c8d702c8d2cb, type: 2}
+  managers:
+    BoardManager: {fileID: 11400000, guid: 5d67ced5272adc24b9ea508cc6b6ce46, type: 2}

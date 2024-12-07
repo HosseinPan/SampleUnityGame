@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad5116c98a2df164db1497eaa1a21a5e, type: 3}
+  m_Name: PlayerWalk_AnimationSettings
+  m_EditorClassIdentifier: 
+  JumpMaxHeight: 0.5
+  JumpDuration: 0.3
+  DelayBetweenJumps: 0.1
+  DelayStartAnimation: 0.2
+  DelayAfterLastJump: 0.8
